@@ -58,12 +58,10 @@ writeData.sync('foo.json', , {abc: 'xyz'});
 
 ## Similar projects
 
-* [delete](https://www.npmjs.com/package/delete): Delete files and folders and any intermediate directories if they exist (sync and async). | [homepage](https://github.com/jonschlinkert/delete)
-* [plasma](https://www.npmjs.com/package/plasma): Load data from globs or files or directly from objects. | [homepage](https://github.com/jonschlinkert/plasma)
 * [read-data](https://www.npmjs.com/package/read-data): Read JSON or YAML files. | [homepage](https://github.com/jonschlinkert/read-data)
-* [read-json](https://www.npmjs.com/package/read-json): Reads and parses a JSON file. | [homepage](https://github.com/azer/read-json#readme)
 * [read-yaml](https://www.npmjs.com/package/read-yaml): Very thin wrapper around js-yaml for directly reading in YAML files. | [homepage](https://github.com/jonschlinkert/read-yaml)
 * [write-json](https://www.npmjs.com/package/write-json): Write a JSON file to disk, also creates intermediate directories in the destination path if… [more](https://www.npmjs.com/package/write-json) | [homepage](https://github.com/jonschlinkert/write-json)
+* [write-yaml](https://www.npmjs.com/package/write-yaml): Write YAML. Converts JSON to YAML writes it to the specified file. | [homepage](https://github.com/jonschlinkert/write-yaml)
 
 ## Running tests
 

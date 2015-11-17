@@ -43,11 +43,9 @@
   "verb": {
     "related": {
       "list": [
-        "plasma",
-        "delete",
         "write-json",
+        "write-yaml",
         "read-yaml",
-        "read-json",
         "read-data"
       ]
     }
