@@ -1,0 +1,55 @@
+{
+  "name": "write-data",
+  "description": "Write a YAML or JSON file to disk. Automatically detects the format to write based on extension. Or pass `ext` on the options.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/write-data",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/write-data",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/write-data/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^1.1.2",
+    "lazy-cache": "^0.2.4",
+    "write-json": "^0.2.2",
+    "write-yaml": "^0.2.2"
+  },
+  "devDependencies": {
+    "delete": "^0.2.1",
+    "mocha": "*",
+    "read-yaml": "^1.0.0",
+    "should": "*"
+  },
+  "keywords": [
+    "data",
+    "format",
+    "json",
+    "read",
+    "write",
+    "yaml"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "plasma",
+        "delete",
+        "write-json",
+        "read-yaml",
+        "read-json",
+        "read-data"
+      ]
+    }
+  }
+}
