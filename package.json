@@ -1,7 +1,7 @@
 {
   "name": "write-data",
   "description": "Write a YAML or JSON file to disk. Automatically detects the format to write based on extension. Or pass `ext` on the options.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/write-data",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/write-data",
