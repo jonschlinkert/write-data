@@ -10,8 +10,7 @@
   },
   "license": "MIT",
   "files": [
-    "index.js",
-    "utils.js"
+    "index.js"
   ],
   "main": "index.js",
   "engines": {
@@ -21,16 +20,16 @@
     "test": "mocha"
   },
   "dependencies": {
-    "extend-shallow": "^1.1.2",
-    "lazy-cache": "^0.2.4",
-    "write-json": "^0.2.2",
-    "write-yaml": "^0.2.2"
+    "extend-shallow": "^2.0.1",
+    "isobject": "^3.0.0",
+    "write-json": "^1.0.1",
+    "write-yaml": "^1.0.0"
   },
   "devDependencies": {
-    "delete": "^0.2.1",
-    "mocha": "*",
-    "read-yaml": "^1.0.0",
-    "should": "*"
+    "delete": "^0.3.2",
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.2.0",
+    "read-yaml": "^1.1.0"
   },
   "keywords": [
     "data",
@@ -43,11 +42,22 @@
   "verb": {
     "related": {
       "list": [
-        "write-json",
-        "write-yaml",
+        "read-data",
         "read-yaml",
-        "read-data"
+        "write-json",
+        "write-yaml"
       ]
+    },
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
     }
   }
 }
