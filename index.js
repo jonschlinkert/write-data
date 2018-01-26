@@ -60,7 +60,7 @@ module.exports = function(dest, data, options, cb) {
       yaml(dest, data, opts, cb);
       break;
     case '.json':
-      json(dest, data, cb);
+      json(dest, data, opts, cb);
       break;
     default: {
       cb(new Error('unsupported file extension: ' + ext));
@@ -102,7 +102,7 @@ module.exports.sync = function(dest, data, options) {
     case '.yaml':
       return yaml.sync(dest, data, opts);
     case '.json':
-      return json.sync(dest, data);
+      return json.sync(dest, data, opts);
     default: {
       throw new Error('unsupported file extension: ' + ext);
     }
