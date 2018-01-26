@@ -20,15 +20,15 @@
     "test": "mocha"
   },
   "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "isobject": "^3.0.0",
-    "write-json": "^1.0.1",
+    "extend-shallow": "^3.0.2",
+    "isobject": "^3.0.1",
+    "write-json": "^2.0.0",
     "write-yaml": "^1.0.0"
   },
   "devDependencies": {
-    "delete": "^0.3.2",
-    "gulp-format-md": "^0.1.12",
-    "mocha": "^3.2.0",
+    "delete": "^1.1.0",
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.3",
     "read-yaml": "^1.1.0"
   },
   "keywords": [
@@ -40,14 +40,6 @@
     "yaml"
   ],
   "verb": {
-    "related": {
-      "list": [
-        "read-data",
-        "read-yaml",
-        "write-json",
-        "write-yaml"
-      ]
-    },
     "toc": false,
     "layout": "default",
     "tasks": [
@@ -56,6 +48,16 @@
     "plugins": [
       "gulp-format-md"
     ],
+    "related": {
+      "list": [
+        "delete",
+        "read-data",
+        "read-yaml",
+        "write",
+        "write-json",
+        "write-yaml"
+      ]
+    },
     "lint": {
       "reflinks": true
     }

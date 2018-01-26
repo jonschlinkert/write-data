@@ -1,7 +1,7 @@
 /*!
  * write-data <https://github.com/jonschlinkert/write-data>
  *
- * Copyright (c) 2015, 2017, Jon Schlinkert.
+ * Copyright (c) 2014-2018, Jon Schlinkert.
  * Released under the MIT License.
  */
 
@@ -47,7 +47,7 @@ module.exports = function(dest, data, options, cb) {
     return;
   }
 
-  var opts = extend({indent: 2, safe: true}, options);
+  var opts = extend({ indent: 2, safe: true }, options);
   var ext = opts.ext || path.extname(dest);
 
   if (ext.charAt(0) !== '.') {
@@ -90,7 +90,7 @@ module.exports.sync = function(dest, data, options) {
     throw new TypeError('expected data to be an object');
   }
 
-  var opts = extend({indent: 2, safe: true}, options);
+  var opts = extend({ indent: 2, safe: true }, options);
   var ext = opts.ext || path.extname(dest);
 
   if (ext.charAt(0) !== '.') {
